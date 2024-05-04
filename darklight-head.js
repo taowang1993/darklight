@@ -1,6 +1,4 @@
-var darkReaderScript = document.createElement('script');
-darkReaderScript.src = 'https://cdn.jsdelivr.net/npm/darkreader@4.9.84/darkreader.min.js';
-document.head.appendChild(darkReaderScript);
+import darkreader from 'https://cdn.jsdelivr.net/npm/darkreader/+esm'
 
 document.documentElement.style.display = 'none'; // Prevent FOUC
 window.addEventListener('load', function() {
