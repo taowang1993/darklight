@@ -1,0 +1,13 @@
+.icon.bi.bi-moon-stars-fill {
+    color: #0000ff;
+}
+.icon.bi.bi-sun {
+    color: #ffd43b;
+    font-size: 1.3em;
+}
+#localnavbarplus-darklight:focus,
+#localnavbarplus-darklight a:focus,
+#localnavbarplus-darklight .icon:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
