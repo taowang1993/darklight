@@ -1,4 +1,4 @@
-import darkreader from 'https://cdn.jsdelivr.net/npm/darkreader/+esm'
+import DarkReader from 'https://cdn.jsdelivr.net/npm/darkreader@4.9.84/esm';
 
 document.documentElement.style.display = 'none'; // Prevent FOUC
 window.addEventListener('load', function() {
