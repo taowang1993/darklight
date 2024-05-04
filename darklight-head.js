@@ -1,7 +1,3 @@
-var script = document.createElement('script');
-script.src = "https://cdn.jsdelivr.net/npm/darkreader/darkreader.min.js";
-document.head.appendChild(script);
-
 document.documentElement.style.display = 'none'; // Prevent FOUC
 window.addEventListener('load', function() {
     let isDarkModeEnabledFromStorage = false;
