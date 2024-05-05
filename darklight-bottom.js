@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     DarkReader.disable();
                     localStorage.setItem('SunMoon', 'disabled');
                 } else {
-                    DarkReader.enable({ brightness: 120, contrast: 90, sepia: 10 });
+                    DarkReader.enable({ brightness: 120, contrast: 120, sepia: 0 });
                     localStorage.setItem('SunMoon', 'enabled');
                 }
             } catch (error) {
